@@ -1,0 +1,34 @@
+
+
+
+  .item:last-child {
+    border-bottom: 0;
+  }
+  
+  input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+  }
+
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+   
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+  }
+
+  .listButton{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
